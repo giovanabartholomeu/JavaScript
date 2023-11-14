@@ -4,9 +4,6 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 24px 80px 24px 80px;
-    position: fixed;
-    width: 100%;
-    top:0;
 }
 
 header nav a{

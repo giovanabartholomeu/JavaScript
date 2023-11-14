@@ -22,12 +22,10 @@
 
 @font-face {
     font-family:'Montserrat-Regular';
-    src: url(../../media/Montserrat-Regular.ttf);
+    src: url(../media/Montserrat-Regular.ttf);
 }
 
 @font-face {
     font-family:'Montserrat-Bold';
-    src: url(../../media/Montserrat-SemiBold.ttf);
+    src: url(../media/Montserrat-SemiBold.ttf);
 }
-
-/*Para procurar a pasta com fontes, colocar o '../../' e selecionar a pasta que contém a fonte escolhida*/
