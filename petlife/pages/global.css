@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fonte-regular);
+    color: #263138;
+}
+/*Essas propriedades são mundiais, ou seja, tem que colocar sempre pois ela 'zera' as configurações padrões dos navegadores*/
+
+:root{
+    --cor-laranja: #FF9A6C;
+    --cor-laranjaescuro: #FF725E;
+    --cor-preto: #090d17;
+    --cor-branco: #FFFFFF;
+    --cor-cinza:#263138;
+
+
+    --fonte-regular: 'Montserrat-Regular';
+    --fonte-bold: 'Montserrat-Bold';
+}
+
+
+@font-face {
+    font-family:'Montserrat-Regular';
+    src: url(../../media/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family:'Montserrat-Bold';
+    src: url(../../media/Montserrat-SemiBold.ttf);
+}
+
+/*Para procurar a pasta com fontes, colocar o '../../' e selecionar a pasta que contém a fonte escolhida*/

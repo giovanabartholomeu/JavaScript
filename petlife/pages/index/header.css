@@ -1,0 +1,18 @@
+header{
+    background-color: var(--cor-laranja);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 80px 24px 80px;
+    position: fixed;
+    width: 100%;
+    top:0;
+}
+
+header nav a{
+    text-decoration: none;
+    font-family: var(--fonte-bold);
+    font-size: 1.1rem;
+    color: var(--cor-branco);
+    padding: 10px;
+}

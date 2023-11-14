@@ -1,0 +1,119 @@
+/*SECTION 1*/
+#inicio{
+    display: flex;
+    align-items: center;
+    padding: 80px 80px 128px 80px;
+    position: relative;
+}
+
+h1,h2{
+    font-family: var(--fonte-bold);
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 32px;
+    line-height: 150%;
+}
+
+p{
+    line-height: 200%;
+    margin-bottom: 32px;
+}
+
+.botao{
+    text-decoration: none;
+    color: var(--cor-branco);
+    background-color: var(--cor-laranjaescuro);
+    border-radius: 10px;
+    padding: 16px 32px 16px 32px;
+}
+.botao-transparente{
+    color: var(--cor-laranjaescuro);
+    background-color: transparent;
+    padding: 16px 32px 16px 32px;
+    text-underline-offset: 4px;
+}
+
+.absoluto{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: -10;
+}
+
+/*SECTION 2*/
+#clinica{
+    display: flex;
+    align-items: center;
+    padding: 64px 80px 64px 80px;
+    gap: 64px;
+}
+
+
+#clinica li{
+    margin-bottom: 16px;
+    margin-left: 32px;
+}
+
+/*SECTION 3*/
+#farmacia{
+    text-align: center;
+    padding: 64px 80px 64px 80px;
+}
+
+#farmacia img{
+    margin: 10px auto;
+}
+
+#farmacia p{
+    line-height: 150%;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+/*SECTION 4*/
+#duvidas{
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 64px 80px 64px 80px;
+}
+
+.duvida{
+    position: relative;
+}
+
+.duvida h3{
+    border: 2px solid var(--cor-laranjaescuro);
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 24px;
+}
+
+.duvida img{
+    position: absolute;
+    top: 32px;
+    right: 24px;
+}
+
+.duvida p{
+    line-height: 150%;
+    border-right: 1px solid var(--cor-laranjaescuro);
+    border-bottom: 1px solid var(--cor-laranjaescuro);
+    border-left: 1px solid var(--cor-laranjaescuro);
+    border-radius: 0 0 8px 8px;
+    margin-top: -8px;
+    margin-bottom: 32px; 
+    /*configurações colocadas depois do js*/
+    padding: 0px 24px;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.duvida.ativa p{
+    height: fit-content;
+    opacity: 1;
+    padding: 24px;
+}
